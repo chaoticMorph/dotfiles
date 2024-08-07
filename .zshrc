@@ -19,6 +19,7 @@ fi
 source "${ZINIT_HOME}/zinit.zsh"
 
 
+
 # # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
@@ -45,7 +46,7 @@ bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey '^[w' kill-region
-bindkey '^t' launch_tmux
+# bindkey '^t' launch_tmux
 
 
 # # History
@@ -80,7 +81,8 @@ eval "$(zoxide init --cmd cd zsh)"
 alias cls='clear'
 alias sdi='sudo dnf install'
 alias pc='sudo pacman -S'
-alias cdd='cd /home/ayush/Documents/My\ Things/Development'
+alias tkill='tmux kill-server'
+alias chdev='cd /home/ayush/Documents/My\ Things/Development'
 alias isc='code $(fzf -m --preview="bat --color=always {}")'
 alias ls='exa --tree --level=1 --icons --sort=Name'
 
@@ -90,13 +92,25 @@ eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/base.json)"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
+# eval "$(tmux ls)"
 
-# Start tmux automatically if not already inside a tmux session
-if command -v tmux &> /dev/null; then
-    if [[ ! $TERM =~ screen ]]; then
-        if [[ -z $TMUX ]]; then
-            tmux attach-session -t default || tmux new-session -s default
-        fi
-    fi
-fi
+tmux ls
 
+tmux a -t second
+
+# tty-clock
+
+figlet "Fedora" | lolcat
+
+# fortune | cowsay -f  tux
+# # Start tmux automatically if not already inside a tmux session
+# if command -v tmux &> /dev/null; then
+#     if [[ ! $TERM =~ screen ]]; then
+#         if [[ -z $TMUX ]]; then
+#             tmux attach-session -t default || tmux new-session -s default
+#         fi
+#     fi
+# fi
+
+
+eval $(thefuck --alias)

@@ -1,0 +1,172 @@
+{
+  "cmake.configureOnOpen": true,
+  "editor.fontLigatures": true,
+  "vscode-edge-devtools.webhintInstallNotification": true,
+  "RainbowBrackets.depreciation-notice": false,
+  "editor.fontVariations": false,
+  "editor.wordWrap": "on",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.fontFamily": "Fira code, 'Courier New', monospace",
+  // "editor.fontFamily": "'JetBrains Mono Nerd Font', 'JetBrains Mono', 'Courier New', monospace",
+  "editor.defaultFormatter": "franneck94.c-cpp-runner",
+  "editor.autoClosingBrackets": "always",
+  "editor.fastScrollSensitivity": 10,
+  "editor.cursorWidth": 2,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never"
+  },
+  "editor.guides.highlightActiveIndentation": false,
+  "lldb.suppressUpdateNotifications": true,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.colorCustomizations": {},
+  "codesnap.showLineNumbers": false,
+  "errorLens.enabled": false,
+  "errorLens.enabledDiagnosticLevels": ["error"],
+  "errorLens.gutterIconSet": "borderless",
+  "workbench.statusBar.visible": false,
+  "workbench.startupEditor": "terminal",
+  "explorer.confirmDelete": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "debugVisualizer.debugAdapterConfigurations": {},
+  "window.titleBarStyle": "custom",
+  "[html]": {
+    "editor.defaultFormatter": "mohd-akram.vscode-html-format"
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.env.windows": {},
+  "c-cpp-compile-run.run-in-external-terminal": true,
+  "code-runner.runInTerminal": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.menuBarVisibility": "compact",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "never",
+  "explorer.confirmDragAndDrop": false,
+  "editor.codeLens": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["text.html.markdown", "text.html.textile", "text.html.ruby"],
+        "settings": {
+          "foreground": "#999999"
+        }
+      }
+    ]
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.useEditorConfig": false,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+  // "editor.guides.bracketPairs": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.bracketPairsHorizontal": "active",
+  "workbench.colorCustomizations": {
+    "[Panda Syntax]": {
+      "editorBracketPairGuide.background1": "#FFB86C",
+      "editorBracketPairGuide.background2": "#FF75B5",
+      "editorBracketPairGuide.background3": "#45A9F9",
+      "editorBracketPairGuide.background4": "#B084EB",
+      "editorBracketPairGuide.background5": "#E6E6E6",
+      "editorBracketPairGuide.background6": "#19f9d8",
+
+      "editorBracketPairGuide.activeBackground1": "#FFB86C",
+      "editorBracketPairGuide.activeBackground2": "#FF75B5",
+      "editorBracketPairGuide.activeBackground3": "#45A9F9",
+      "editorBracketPairGuide.activeBackground4": "#B084EB",
+      "editorBracketPairGuide.activeBackground5": "#E6E6E6",
+      "editorBracketPairGuide.activeBackground6": "#19f9d8"
+    }
+  },
+  "[java]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.defaultFormatter": "mwpb.java-prettier-formatter"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "oneDarkPro.vivid": true,
+  "workbench.preferredDarkColorTheme": "NarutoDark",
+  "workbench.preferredHighContrastLightColorTheme": "Default High Contrast",
+  "terminal.integrated.fontSize": 14,
+  "editor.fontSize": 12,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "git.ignoreRebaseWarning": true,
+  "terminal.explorerKind": "external",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "workbench.panel.defaultLocation": "right",
+  "terminal.integrated.wordSeparators": "",
+  "terminal.sourceControlRepositoriesKind": "external"
+  // "terminal.integrated.automationProfile.linux": {}
+}
