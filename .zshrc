@@ -38,6 +38,8 @@ zinit snippet OMZP::command-not-found
 # # Load completions
 autoload -Uz compinit && compinit
 
+echo 'eval "$(atuin init zsh)"' >> ~/.zshrc
+
 # zinit cdreplay -q
 
 
@@ -85,6 +87,7 @@ alias tkill='tmux kill-server'
 alias chdev='cd /home/ayush/Documents/My\ Things/Development'
 alias isc='code $(fzf -m --preview="bat --color=always {}")'
 alias ls='exa --tree --level=1 --icons --sort=Name'
+alias find='atuin search'
 
 
 # # eval "$(oh-my-posh init zsh)"
@@ -114,3 +117,25 @@ figlet "Fedora" | lolcat
 
 
 eval $(thefuck --alias)
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
